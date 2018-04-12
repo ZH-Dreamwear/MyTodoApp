@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-04-03 23:32:12
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-04-04 01:54:59
+* @Last Modified time: 2018-04-13 02:01:14
 */
 
 * {
@@ -20,6 +20,7 @@
 body {
 	background: #00334b;
 	color:#fff;
+	padding-top: 50px;
 }
 
 .container {
@@ -92,8 +93,16 @@ button[type=submit] {
 	color: #000;
 }
 
+.task_detail_mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+}
+
 .task-detail {
-	display: none;
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -118,3 +127,6 @@ textarea {
 	background: #ddd;
 }
 
+.task-content {
+	margin-left: 20px;
+}
